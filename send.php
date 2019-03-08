@@ -48,7 +48,7 @@ $email = "yyassmeen@gmail.com";
 
 if($mail->Send()){
 echo "تم ارسال الرسالة سيتم الرد عليك باقرب وقت ممكن!";
-echo '<meta http-equiv="refresh" content="4; \'blogger.html\' ">';
+echo '<meta http-equiv="refresh" content="4; \'blog.html\' ">';
 }else{
 "There is something went wrong!";
 
