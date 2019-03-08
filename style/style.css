@@ -44,6 +44,7 @@ header .col-md-6{padding:40px 20px;  position:relative;  z-index:2;  overflow:hi
 .navbar-default{background-color:#0c131533;  border:none}
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus{color:#fff;  background-color:#7d4ac7}
 .navbar-default .btn.page-scroll{color:white;  padding:14px 28px;  font-size:16px;  cursor:pointer;  border-radius:16px;  background:#7d4ac7}
+.top-nav-collapse{background-color: #7d4ac7;}nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse li a {color: #fff;}
 .about-section{float:right; width:100%; background:#fff; height:auto; padding:150px 0}
 .about-section h2{font-size:38px; font-weight:bold; color:#7d4ac7}
 .about-section h3{font-size:21px;  font-weight:bold;  margin:70px 0 20px;  color:#000;  font-family:'Segoe UI','Helvetica Neue','Microsoft Sans Serif','URW Gothic L'}
