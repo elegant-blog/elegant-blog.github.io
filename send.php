@@ -16,7 +16,7 @@ $sentemaile= '
 <div class="email">ايميل المرسل : '.$header.'</div><br>';
 $message .= $sentname;
 $message .=$sentemaile;
-$email = "yyassmeen@gmail.com";
+$email = "your@gmail.com";
 }
  
 	require_once('mailer/class.phpmailer.php');
@@ -30,10 +30,10 @@ $email = "yyassmeen@gmail.com";
 		$mail->Host       = "smtp.gmail.com";      
 		$mail->Port       = 587;            
 		$mail->AddAddress($email);
-		$mail->Username="yyassmeen@gmail.com";  
-		$mail->Password="hlru6w8xL/";            
-		$mail->SetFrom('yyassmeen@gmail.com','beall');
-		$mail->AddReplyTo("yyassmeen@gmail.com","beall");
+		$mail->Username="your@gmail.com";  
+		$mail->Password="yourpass";            
+		$mail->SetFrom('your@gmail.com','beall');
+		$mail->AddReplyTo("your@gmail.com","beall");
 		$mail->Subject    = $subject;
 		$mail->MsgHTML($message);
 		$mail->Send();
